@@ -59,13 +59,13 @@
 
 ;; Sat Nov 12 13:12:19 2016
 ;; Setting English Font 
-(set-face-attribute
- 'default nil :font "Monaco 14")
+;;(set-face-attribute
+;; 'default nil :font "Monaco 14")
 ;; Chinese Font 配制中文字体
-(dolist (charset '(kana han symbol cjk-misc bopomofo))
-  (set-fontset-font (frame-parameter nil 'font)
-                    charset
-                    (font-spec :family "Microsoft YaHei" :size 14)))
+;;(dolist (charset '(kana han symbol cjk-misc bopomofo))
+;;  (set-fontset-font (frame-parameter nil 'font)
+;;                    charset
+;;                   (font-spec :family "Microsoft YaHei" :size 14)))
 ;; Note: you can chang "Kaiti SC" to "Microsoft YaHei" or other fonts
 ;; 自动备份功能
 (setq
